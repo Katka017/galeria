@@ -1,0 +1,69 @@
+section {
+    max-width: 500px;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    position: relative;
+    padding: 30px;
+    
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    max-width: 50px;
+    opacity: .4;
+    
+}
+
+section div {
+    max-width: 400px;
+}
+
+ul li img {
+    max-width: 100px;
+    
+
+}
+ul li {
+    display: inline-block;
+    left: none;
+}
+
+ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+   
+}
+
+.nav {
+    position: absolute;
+    top: 100px;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 30px;
+}
+.prev:hover {
+    cursor: pointer;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+.previev {
+    text-align: center;
+
+}
+
+.previev img {
+    max-width: 300px;
+}
+ul li.active{
+    opacity: 1;
+}

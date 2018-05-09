@@ -1,0 +1,18 @@
+<section>
+<div class='previev'>
+<img [src]='pictures[currentPicture]'/>
+</div>
+<ul>
+    <li *ngFor='let picture of pictures; let i=index'
+    [class.active]='currentPicture===i'
+    (click)='selectPicture(i)'>
+    <img [src]= 'picture'/>
+
+     </li>
+</ul>
+
+<div class='nav next' 
+(click)='selectNextPicture()'> > </div>
+<div class='nav prev' 
+(click)='selectPrevPicture()'> < </div>
+</section>
